@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  background: url("https://tse3.mm.bing.net/th/id/OIP.u8pjbChQb2DjHEwVx5vwlQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3") center/cover no-repeat fixed;
+  color: #2b2b2b;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+main {
+  width: 100%;
+  max-width: 440px;
+  padding: 32px;
+  background: rgba(247, 244, 239, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #c9c2b4;
+  border-radius: 6px;
+}
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h2 {
+  margin: 0 0 4px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #6b665c;
+}
+
+p {
+  margin: 0;
+}
+
+#entrada {
+  margin-bottom: 24px;
+  color: #6b665c;
+}
+
+.bloque {
+  padding: 14px 0;
+  border-top: 1px solid #c9c2b4;
+}
+
+.bloque p {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+#iguales {
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: #d5dfd3;
+  border-left: 4px solid #4f6b57;
+}
+
+[hidden] {
+  display: none;
+}
